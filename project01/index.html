@@ -7,7 +7,7 @@
 </head>
 
 <body>
-<table width="90%" align="center" cellpadding="0">
+<table width="90%" align="center" cellpadding="0" cellspacing="0">
   <tr>
     <th scope="col" colspan="2"> <div class="title">The Magic Life Figure-Outer!</div>
       <div class="subtitle">Figuring out life for you, so you don't have to...</div>
@@ -31,30 +31,18 @@
     </article>
     
     <header class="header">Lorem Ipsum Dolor Sit Amet.</header>
-    <table width="70%" border="0" cellpadding="0">
-  <tr>
-    <td>How do you feel today?</td>
-    <td><input name="dofeel" type="text" size="25" maxlength="100"></td>
-  </tr>
-  <tr>
-    <td>How would you like to feel? (choose all that apply)</td>
-    <td><select name="liketofeel" size="4">
+    <form name="form1">
+    How do you feel today?  
+    <input name="dofeel" type="text" size="25" maxlength="100" align="right"><br>
+    How would you like to feel? (choose all that apply)  
+    <select name="liketofeel" size="4" multiple >
       <option value="numb">Comfortably numb</option>
       <option value="grumpy">Grumpy as poop, you jerk</option>
       <option value="happy">Happy like I'm on controlled substances</option>
       <option value="normal">Normal. Absolutely normal.</option>
-    </select></td>
-  </tr>
-  <tr>
-	<td>&nbsp;</td>
-    <td><button type="submit" onClick="alert('Clicked!')">Feel me!</button></td>
-  </tr>
-</table>
-
-    
-    <br>    
-        
-    <br>
+    </select><br>
+    <button type="submit" onClick="alert('Clicked!')">Feel me!</button>
+    </form>
     </td>
   </tr>
   <tr>
