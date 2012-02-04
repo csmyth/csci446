@@ -11,3 +11,9 @@ two:
   description: MyText
   image_url: MyString
   price: 9.99
+
+lizardspock:
+  title: The Lizard-Spock Expansion
+  description: Sheldon puts a new twist on a classic problem-solvig game and Howard gets the Mars rover stuck in a ditch.
+  price: 25.00
+  image_url: lizardspock.jpg
