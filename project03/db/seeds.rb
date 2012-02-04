@@ -16,27 +16,27 @@
 #---
 # encoding: utf-8
 Product.delete_all
-Product.create(title: 'Pilot',
+Product.create(title: 'Serenity',
   description: 
     %{<p>
-        A pair of brilliant theoretical physicists meet a woman who shows them how little they know about the real world.
+        Malcolm Reynolds is a veteran and the captain of Serenity. He and his crew are smuggling goods, but they need to pick up some passengers for extra money. However, not all the passengers are what they seem. 
       </p>},
-  image_url:   'pilot.jpg',    
+  image_url:   'serenity.jpg',    
   price: 36.00)
 # . . .
-Product.create(title: 'The Big Bran Hypothesis',
+Product.create(title: 'The Train Job',
   description:
     %{<p>
-        Penny is furious and more than a little freaked out with Leonard and Sheldon when they sneak into her apartment overnight, and clean it while she is sleeping. 
+        The crew of Serenity takes on a train heist commissioned by a crime lord. They steal the goods, only to find it is medicine that is desperately needed by the town. 
       </p>},
-  image_url: 'bigbran.jpg',
+  image_url: 'trainjob.jpg',
   price: 49.95)
 # . . .
 
-Product.create(title: 'The Fuzzy Boots Corollary',
+Product.create(title: 'Bushwhacked',
   description: 
     %{<p>
-        Leonard gets upset when he discovers that Penny is seeing a new guy, so he tries to trick her into going on a "date" with him.
+        Serenity is pulled in by an Alliance cruiser while investigating a spaceship that was attacked by Reavers. Simon and River must hide to prevent capture, while something is wrong with the lone survivor of the attacked spaceship. 
       </p>},
-  image_url: 'fuzzyboots.jpg',
+  image_url: 'bushwhacked.jpg',
   price: 34.95)
