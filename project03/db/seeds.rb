@@ -16,7 +16,7 @@
 #---
 # encoding: utf-8
 Product.delete_all
-Product.create(title: 'Serenity',
+Product.create(title: 'Episode #1: Serenity',
   description: 
     %{<p>
         Malcolm Reynolds is a veteran and the captain of Serenity. He and his crew are smuggling goods, but they need to pick up some passengers for extra money. However, not all the passengers are what they seem. 
@@ -24,7 +24,7 @@ Product.create(title: 'Serenity',
   image_url:   'serenity.jpg',    
   price: 36.00)
 # . . .
-Product.create(title: 'The Train Job',
+Product.create(title: 'Episode #2: The Train Job',
   description:
     %{<p>
         The crew of Serenity takes on a train heist commissioned by a crime lord. They steal the goods, only to find it is medicine that is desperately needed by the town. 
@@ -33,7 +33,7 @@ Product.create(title: 'The Train Job',
   price: 49.95)
 # . . .
 
-Product.create(title: 'Bushwhacked',
+Product.create(title: 'Episode #3: Bushwhacked',
   description: 
     %{<p>
         Serenity is pulled in by an Alliance cruiser while investigating a spaceship that was attacked by Reavers. Simon and River must hide to prevent capture, while something is wrong with the lone survivor of the attacked spaceship. 
