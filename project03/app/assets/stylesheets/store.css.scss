@@ -7,15 +7,15 @@
 		margin: 0;
 		padding-bottom: 0.5em;
 		font: 150% sans-serif;
-		color: #226;
-		border-bottom: 3px dotted #77d;
+		color: #c6711e;
+		border-bottom: 3px dotted #2e0300;
 	}
 	
 	/* An entry in the store catalog */
 	.entry {
 		overflow: auto;
 		margin-top: 1em;
-		border-bottom: 1px dotted #77d;
+		border-bottom: 1px dotted #2e0300;
 		min-height: 100px;
 		
 		img {
@@ -31,7 +31,7 @@
 			margin-left: 100px;
 			margin-top: 0;
 			margin-bottom: 2px;
-			color: #227;
+			color: #c6711e;
 		}
 		
 		p, div.price_line {
@@ -41,7 +41,7 @@
 		}
 		
 		.price {
-			color: #44a;
+			color: #711814;
 			font-weight: bold;
 			margin-right: 3em;
 		}
