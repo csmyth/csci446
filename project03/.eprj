@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>fileTriggers</key>
+        <dict>
+            <key>cart.rb</key>
+            <string>app\models\cart.rb</string>
+            <key>cc</key>
+            <string>app\controllers\carts_controller.rb</string>
+            <key>cct</key>
+            <string>test\functional\carts_controller_test.rb</string>
+        </dict>
+    </dict>
+</plist>
