@@ -47,7 +47,26 @@
 		float: left;
 		padding: 1em 2em;
 		width: 13em;
-		background-color: #2e0300;
+		background: #2e0300;
+		
+		form, div {
+			display: inline;
+		}
+		
+		input {
+			font-size: small;
+		}
+		
+		#cart {
+			font-size: smaller;
+			color: white;
+			
+			table {
+				border-top: 1px dotted #821906;
+				border-bottom: 1px dotted #821906;
+				margin-bottom: 10px;
+			}
+		}
 		
 		ul {
 			padding: 0;

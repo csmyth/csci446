@@ -4,12 +4,22 @@
     <dict>
         <key>fileTriggers</key>
         <dict>
+            <key>appli</key>
+            <string>app\assets\stylesheets\application.css.scss</string>
             <key>cart.rb</key>
             <string>app\models\cart.rb</string>
+            <key>carts.</key>
+            <string>app\assets\stylesheets\carts.css.scss</string>
             <key>cc</key>
             <string>app\controllers\carts_controller.rb</string>
             <key>cct</key>
             <string>test\functional\carts_controller_test.rb</string>
+            <key>how</key>
+            <string>app\views\carts\show.html.erb</string>
+            <key>line_items_</key>
+            <string>app\controllers\line_items_controller.rb</string>
+            <key>store</key>
+            <string>app\controllers\store_controller.rb</string>
         </dict>
     </dict>
 </plist>
