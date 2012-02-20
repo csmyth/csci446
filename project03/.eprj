@@ -16,8 +16,18 @@
             <string>test\functional\carts_controller_test.rb</string>
             <key>how</key>
             <string>app\views\carts\show.html.erb</string>
+            <key>index</key>
+            <string>app\views\store\index.html.erb</string>
+            <key>index.</key>
+            <string>app\views\store\index.html.erb</string>
+            <key>line_items</key>
+            <string>app\controllers\line_items_controller.rb</string>
             <key>line_items_</key>
             <string>app\controllers\line_items_controller.rb</string>
+            <key>line_items_con</key>
+            <string>app\controllers\line_items_controller.rb</string>
+            <key>show</key>
+            <string>app\views\carts\show.html.erb</string>
             <key>store</key>
             <string>app\controllers\store_controller.rb</string>
         </dict>
