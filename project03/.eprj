@@ -4,8 +4,12 @@
     <dict>
         <key>fileTriggers</key>
         <dict>
+            <key>_line</key>
+            <string>app\views\line_items\_line_item.html.erb</string>
             <key>appli</key>
             <string>app\assets\stylesheets\application.css.scss</string>
+            <key>applications</key>
+            <string>app\assets\javascripts\application.js</string>
             <key>cart.rb</key>
             <string>app\models\cart.rb</string>
             <key>carts.</key>
@@ -14,6 +18,8 @@
             <string>app\controllers\carts_controller.rb</string>
             <key>cct</key>
             <string>test\functional\carts_controller_test.rb</string>
+            <key>create.j</key>
+            <string>app\views\line_items\create.js.erb</string>
             <key>how</key>
             <string>app\views\carts\show.html.erb</string>
             <key>index</key>
