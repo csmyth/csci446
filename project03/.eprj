@@ -6,9 +6,15 @@
         <dict>
             <key>_cart</key>
             <string>app\views\carts\_cart.html.erb</string>
+            <key>_form</key>
+            <string>app\views\orders\_form.html.erb</string>
             <key>_line</key>
             <string>app\views\line_items\_line_item.html.erb</string>
+            <key>app</key>
+            <string>app\assets\stylesheets\application.css.scss</string>
             <key>appli</key>
+            <string>app\assets\stylesheets\application.css.scss</string>
+            <key>application.c</key>
             <string>app\assets\stylesheets\application.css.scss</string>
             <key>application.h</key>
             <string>app\views\layouts\application.html.erb</string>
@@ -16,6 +22,8 @@
             <string>app\helpers\application_helper.rb</string>
             <key>applications</key>
             <string>app\assets\javascripts\application.js</string>
+            <key>cart</key>
+            <string>app\views\carts\_cart.html.erb</string>
             <key>cart.rb</key>
             <string>app\models\cart.rb</string>
             <key>carts.</key>
@@ -28,6 +36,8 @@
             <string>test\functional\carts_controller_test.rb</string>
             <key>create</key>
             <string>app\views\line_items\create.js.erb</string>
+            <key>create.</key>
+            <string>app\views\line_items\create.js.erb</string>
             <key>create.j</key>
             <string>app\views\line_items\create.js.erb</string>
             <key>how</key>
@@ -37,13 +47,29 @@
             <key>index.</key>
             <string>app\views\store\index.html.erb</string>
             <key>line_</key>
-            <string>test\functional\line_items_controller_test.rb</string>
+            <string>test\fixtures\line_items.yml</string>
+            <key>line_item.rb</key>
+            <string>app\models\line_item.rb</string>
             <key>line_items</key>
             <string>app\controllers\line_items_controller.rb</string>
             <key>line_items_</key>
             <string>app\controllers\line_items_controller.rb</string>
             <key>line_items_con</key>
             <string>app\controllers\line_items_controller.rb</string>
+            <key>new</key>
+            <string>app\views\orders\new.html.erb</string>
+            <key>order.</key>
+            <string>app\models\order.rb</string>
+            <key>order.r</key>
+            <string>app\models\order.rb</string>
+            <key>order.rb</key>
+            <string>app\models\order.rb</string>
+            <key>orders</key>
+            <string>app\controllers\orders_controller.rb</string>
+            <key>orders.y</key>
+            <string>test\fixtures\orders.yml</string>
+            <key>orders_</key>
+            <string>test\functional\orders_controller_test.rb</string>
             <key>show</key>
             <string>app\views\carts\show.html.erb</string>
             <key>store</key>
