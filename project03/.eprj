@@ -36,6 +36,8 @@
             <string>app\views\store\index.html.erb</string>
             <key>index.</key>
             <string>app\views\store\index.html.erb</string>
+            <key>line_</key>
+            <string>test\functional\line_items_controller_test.rb</string>
             <key>line_items</key>
             <string>app\controllers\line_items_controller.rb</string>
             <key>line_items_</key>
@@ -45,7 +47,9 @@
             <key>show</key>
             <string>app\views\carts\show.html.erb</string>
             <key>store</key>
-            <string>app\controllers\store_controller.rb</string>
+            <string>test\functional\store_controller_test.rb</string>
+            <key>store.js</key>
+            <string>app\assets\javascripts\store.js.coffee</string>
         </dict>
     </dict>
 </plist>
