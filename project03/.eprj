@@ -70,6 +70,8 @@
             <string>test\fixtures\orders.yml</string>
             <key>orders_</key>
             <string>test\functional\orders_controller_test.rb</string>
+            <key>products_</key>
+            <string>app\controllers\products_controller.rb</string>
             <key>show</key>
             <string>app\views\carts\show.html.erb</string>
             <key>store</key>
