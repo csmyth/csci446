@@ -41,6 +41,7 @@ class ArticlesController < ApplicationController
   # POST /articles.json
   def create
     @article = Article.new(params[:article])
+    @article.creation_date = Date.current
 
     respond_to do |format|
       if @article.save
