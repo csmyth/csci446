@@ -4,14 +4,28 @@
     <dict>
         <key>fileTriggers</key>
         <dict>
+            <key>_cart</key>
+            <string>..\project03\app\views\carts\_cart.html.erb</string>
             <key>_fo</key>
             <string>app\views\articles\_form.html.erb</string>
             <key>_form</key>
             <string>app\views\articles\_form.html.erb</string>
+            <key>_line</key>
+            <string>..\project03\app\views\line_items\_line_item.html.erb</string>
+            <key>app</key>
+            <string>..\project03\app\assets\stylesheets\application.css.scss</string>
             <key>appli</key>
             <string>app\assets\stylesheets\application.css</string>
             <key>applicat</key>
             <string>app\views\layouts\application.html.erb</string>
+            <key>application.c</key>
+            <string>..\project03\app\assets\stylesheets\application.css.scss</string>
+            <key>application.h</key>
+            <string>..\project03\app\views\layouts\application.html.erb</string>
+            <key>application_</key>
+            <string>..\project03\app\helpers\application_helper.rb</string>
+            <key>applications</key>
+            <string>..\project03\app\assets\javascripts\application.js</string>
             <key>article</key>
             <string>app\assets\stylesheets\articles.css.scss</string>
             <key>article.rb</key>
@@ -22,14 +36,68 @@
             <string>app\assets\stylesheets\articles.css.scss</string>
             <key>articles_</key>
             <string>test\functional\articles_controller_test.rb</string>
+            <key>cart</key>
+            <string>..\project03\app\views\carts\_cart.html.erb</string>
+            <key>cart.rb</key>
+            <string>..\project03\app\models\cart.rb</string>
+            <key>carts.</key>
+            <string>..\project03\app\assets\stylesheets\carts.css.scss</string>
+            <key>carts_</key>
+            <string>..\project03\app\controllers\carts_controller.rb</string>
+            <key>cc</key>
+            <string>..\project03\app\controllers\carts_controller.rb</string>
+            <key>cct</key>
+            <string>..\project03\test\functional\carts_controller_test.rb</string>
+            <key>create</key>
+            <string>..\project03\app\views\line_items\create.js.erb</string>
+            <key>create.</key>
+            <string>..\project03\app\views\line_items\create.js.erb</string>
+            <key>create.j</key>
+            <string>..\project03\app\views\line_items\create.js.erb</string>
+            <key>how</key>
+            <string>..\project03\app\views\carts\show.html.erb</string>
             <key>index</key>
             <string>app\views\articles\index.html.erb</string>
+            <key>index.</key>
+            <string>..\project03\app\views\store\index.html.erb</string>
+            <key>line_</key>
+            <string>..\project03\test\fixtures\line_items.yml</string>
+            <key>line_item.rb</key>
+            <string>..\project03\app\models\line_item.rb</string>
+            <key>line_items</key>
+            <string>..\project03\app\controllers\line_items_controller.rb</string>
+            <key>line_items_</key>
+            <string>..\project03\app\controllers\line_items_controller.rb</string>
+            <key>line_items_con</key>
+            <string>..\project03\app\controllers\line_items_controller.rb</string>
             <key>listing</key>
-            <string>app\controllers\listing_controller.rb</string>
+            <string>app\assets\stylesheets\listing.css.scss</string>
+            <key>new</key>
+            <string>..\project03\app\views\orders\new.html.erb</string>
+            <key>order.</key>
+            <string>..\project03\app\models\order.rb</string>
+            <key>order.r</key>
+            <string>..\project03\app\models\order.rb</string>
+            <key>order.rb</key>
+            <string>..\project03\app\models\order.rb</string>
+            <key>orders</key>
+            <string>..\project03\app\controllers\orders_controller.rb</string>
+            <key>orders.y</key>
+            <string>..\project03\test\fixtures\orders.yml</string>
+            <key>orders_</key>
+            <string>..\project03\test\functional\orders_controller_test.rb</string>
+            <key>products_</key>
+            <string>..\project03\app\controllers\products_controller.rb</string>
             <key>route</key>
             <string>config\routes.rb</string>
             <key>seeds</key>
             <string>db\seeds.rb</string>
+            <key>show</key>
+            <string>..\project03\app\views\carts\show.html.erb</string>
+            <key>store</key>
+            <string>..\project03\test\functional\store_controller_test.rb</string>
+            <key>store.js</key>
+            <string>..\project03\app\assets\javascripts\store.js.coffee</string>
         </dict>
     </dict>
 </plist>
