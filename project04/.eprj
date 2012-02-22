@@ -12,6 +12,8 @@
             <string>app\views\layouts\application.html.erb</string>
             <key>articles</key>
             <string>app\assets\stylesheets\articles.css.scss</string>
+            <key>index</key>
+            <string>app\views\articles\index.html.erb</string>
             <key>seeds</key>
             <string>db\seeds.rb</string>
         </dict>
