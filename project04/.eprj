@@ -24,6 +24,8 @@
             <string>test\functional\articles_controller_test.rb</string>
             <key>index</key>
             <string>app\views\articles\index.html.erb</string>
+            <key>listing</key>
+            <string>app\controllers\listing_controller.rb</string>
             <key>route</key>
             <string>config\routes.rb</string>
             <key>seeds</key>
