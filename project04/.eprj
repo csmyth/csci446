@@ -12,6 +12,8 @@
             <string>app\views\layouts\application.html.erb</string>
             <key>article.rb</key>
             <string>app\models\article.rb</string>
+            <key>article_</key>
+            <string>test\unit\article_test.rb</string>
             <key>articles</key>
             <string>app\assets\stylesheets\articles.css.scss</string>
             <key>articles_</key>
