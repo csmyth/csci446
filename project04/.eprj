@@ -6,10 +6,14 @@
         <dict>
             <key>_fo</key>
             <string>app\views\articles\_form.html.erb</string>
+            <key>_form</key>
+            <string>app\views\articles\_form.html.erb</string>
             <key>appli</key>
             <string>app\assets\stylesheets\application.css</string>
             <key>applicat</key>
             <string>app\views\layouts\application.html.erb</string>
+            <key>article</key>
+            <string>app\assets\stylesheets\articles.css.scss</string>
             <key>article.rb</key>
             <string>app\models\article.rb</string>
             <key>article_</key>

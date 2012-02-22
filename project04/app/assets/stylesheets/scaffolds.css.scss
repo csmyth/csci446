@@ -26,6 +26,14 @@ a {
 div {
   &.field, &.actions {
     margin-bottom: 10px; } }
+    
+label {
+	vertical-align: top;
+    text-align: right;
+    float: left;
+    width: 50px;
+    margin-right: 20px;
+}
 
 #notice {
   color: green; }
