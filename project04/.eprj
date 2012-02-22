@@ -14,6 +14,8 @@
             <string>app\models\article.rb</string>
             <key>articles</key>
             <string>app\assets\stylesheets\articles.css.scss</string>
+            <key>articles_</key>
+            <string>test\functional\articles_controller_test.rb</string>
             <key>index</key>
             <string>app\views\articles\index.html.erb</string>
             <key>seeds</key>
