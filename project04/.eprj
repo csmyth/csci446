@@ -27,7 +27,7 @@
             <key>applications</key>
             <string>..\project03\app\assets\javascripts\application.js</string>
             <key>article</key>
-            <string>app\assets\stylesheets\articles.css.scss</string>
+            <string>app\controllers\articles_controller.rb</string>
             <key>article.rb</key>
             <string>app\models\article.rb</string>
             <key>article_</key>
@@ -56,6 +56,8 @@
             <string>..\project03\app\views\line_items\create.js.erb</string>
             <key>how</key>
             <string>..\project03\app\views\carts\show.html.erb</string>
+            <key>inde</key>
+            <string>app\views\articles\index.html.erb</string>
             <key>index</key>
             <string>app\views\articles\index.html.erb</string>
             <key>index.</key>

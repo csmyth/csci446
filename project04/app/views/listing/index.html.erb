@@ -10,8 +10,8 @@
 <div class="page_header">
 	<h2>All the World's Articles</h2>
 	<div class="create">
-		<% #replace with link %>
-		Create an Article
+		<%= link_to image_tag("add.png"), new_article_path %>
+		<%= link_to 'Create an Article', new_article_path %>
 	</div>
 </div>
 
