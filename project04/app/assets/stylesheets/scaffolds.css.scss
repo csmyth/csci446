@@ -63,3 +63,9 @@ label {
   ul li {
     font-size: 12px;
     list-style: square; } }
+    
+#navlist li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+}

@@ -1,25 +1,33 @@
-<p id="notice"><%= notice %></p>
+<ul id="navlist">
+	<li>
+		<%= link_to image_tag("arrow_left.png"), listing_path %>
+		<%= link_to 'list all articles', listing_path %>
+	</li>
+	<li>
+		<%= link_to image_tag("page_edit.png"), edit_article_path(@article) %>
+		<%= link_to 'edit', edit_article_path(@article) %> 
+	</li>
+	<li>
+		<%= link_to image_tag("delete.png"), @article, 
+				confirm: 'Are you sure?', method: :delete %>
+		<%= link_to 'delete', @article, 
+				confirm: 'Are you sure?', method: :delete %> 
+	</li>
+	<li>
+		<% #Not properly linked yet %>
+		<%= link_to image_tag("email.png"), edit_article_path(@article) %>
+		<%= link_to 'email', edit_article_path(@article) %> 
+	</li>
+</ul>
 
 <p>
-  <b>Title:</b>
-  <%= @article.title %>
+  <h2><%= @article.title %></h2>
+  
+  by <%= @article.author %>.
+  <%= @article.edit_count %> edits
+  since <%= @article.creation_date %></br>
 </p>
 
 <p>
-  <b>Author:</b>
-  <%= @article.author %>
+  <%= strip_tags(@article.body) %>
 </p>
-
-<p>
-  <b>Body:</b>
-  <%= @article.body %>
-</p>
-
-<p>
-  <b>Creation date:</b>
-  <%= @article.creation_date %>
-</p>
-
-
-<%= link_to 'Edit', edit_article_path(@article) %> |
-<%= link_to 'Back', articles_path %>
