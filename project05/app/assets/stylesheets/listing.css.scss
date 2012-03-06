@@ -2,15 +2,14 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.listing {		
-	.page_header {
+.listing {	
+	#spannav {
+		display: inline;
+		list-style-type: none;
+		padding-left: 250px;
+		font-size: 60%;
+	}
 		
-	}
-	
-	.create {
-		text-align: right;
-	}
-	
 	.count {
 		
 	}

@@ -57,7 +57,7 @@
             <key>how</key>
             <string>..\project03\app\views\carts\show.html.erb</string>
             <key>inde</key>
-            <string>app\views\articles\index.html.erb</string>
+            <string>app\views\listing\index.html.erb</string>
             <key>index</key>
             <string>app\views\articles\index.html.erb</string>
             <key>index.</key>
