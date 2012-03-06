@@ -13,7 +13,8 @@
 */
 
 #banner {
-	text-align: center;	
+	text-align: left;
+	padding-left: 40%;
 }
 
 #notice {
