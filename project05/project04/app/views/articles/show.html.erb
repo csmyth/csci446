@@ -1,0 +1,33 @@
+<ul id="navlist">
+	<li>
+		<%= link_to image_tag("arrow_left.png"), listing_path %>
+		<%= link_to 'list all articles', listing_path %>
+	</li>
+	<li>
+		<%= link_to image_tag("page_edit.png"), edit_article_path(@article) %>
+		<%= link_to 'edit', edit_article_path(@article) %> 
+	</li>
+	<li>
+		<%= link_to image_tag("delete.png"), @article, 
+				confirm: 'Are you sure?', method: :delete %>
+		<%= link_to 'delete', @article, 
+				confirm: 'Are you sure?', method: :delete %> 
+	</li>
+	<li>
+		<% #Not properly linked yet %>
+		<%= link_to image_tag("email.png"), edit_article_path(@article) %>
+		<%= link_to 'email', edit_article_path(@article) %> 
+	</li>
+</ul>
+
+<p>
+  <h2><%= @article.title %></h2>
+  
+  by <%= @article.author %>.
+  <%= @article.edit_count %> edits
+  since <%= @article.creation_date %></br>
+</p>
+
+<p>
+  <%= strip_tags(@article.body) %>
+</p>

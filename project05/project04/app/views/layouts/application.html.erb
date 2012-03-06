@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Articl.es</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body class='<%= controller.controller_name %>'>
+<div id="banner">	
+	<h1>Articl.es</h1>
+	<h5>...with a name .com hipsters love!</h5>
+</div>
+
+<div id="main">
+	<%= yield %>
+</div>
+
+</body>
+</html>
