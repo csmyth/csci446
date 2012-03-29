@@ -2,7 +2,7 @@ class AdminsController < ApplicationController
   # GET /admins
   # GET /admins.json
   def index
-    @admins = Admin.all
+    @admins = Admin.order(:last_name)
 
     respond_to do |format|
       format.html # index.html.erb

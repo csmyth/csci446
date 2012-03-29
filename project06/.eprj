@@ -7,11 +7,13 @@
             <key>_cart</key>
             <string>..\project03\app\views\carts\_cart.html.erb</string>
             <key>_fo</key>
-            <string>..\project05\app\views\articles\_form.html.erb</string>
+            <string>app\views\admins\_form.html.erb</string>
             <key>_form</key>
             <string>..\project05\app\views\articles\_form.html.erb</string>
             <key>_line</key>
             <string>..\project03\app\views\line_items\_line_item.html.erb</string>
+            <key>admin</key>
+            <string>app\controllers\admins_controller.rb</string>
             <key>admin.</key>
             <string>app\models\admin.rb</string>
             <key>admin.r</key>
@@ -65,9 +67,9 @@
             <key>how</key>
             <string>..\project03\app\views\carts\show.html.erb</string>
             <key>inde</key>
-            <string>..\project05\app\views\listing\index.html.erb</string>
+            <string>app\views\admins\index.html.erb</string>
             <key>index</key>
-            <string>..\project05\app\views\articles\index.html.erb</string>
+            <string>app\views\admins\index.html.erb</string>
             <key>index.</key>
             <string>..\project03\app\views\store\index.html.erb</string>
             <key>line_</key>
