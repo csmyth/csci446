@@ -17,7 +17,7 @@
   </div>
   <div class="field">
     <%= f.label :password, 'Password' %><br />
-    <%= f.password_field :password_digest, size: 30 %>
+    <%= f.password_field :password, size: 30 %>
   </div>
   <div class="field">
     <%= f.label :password_confirmation, 'Confirm' %><br />
@@ -30,6 +30,10 @@
   <div class="field">
     <%= f.label :last_name %><br />
     <%= f.text_field :last_name, size: 30 %>
+  </div>
+  <div class="field">
+    <%= f.label :email %><br />
+    <%= f.text_field :email, size: 30 %>
   </div>
   <div class="actions">
     <%= f.submit %>

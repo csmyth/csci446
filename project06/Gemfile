@@ -40,3 +40,5 @@ gem 'jquery-rails'
 gem 'bcrypt-ruby'
 
 gem 'haml'
+
+gem 'email_validator'

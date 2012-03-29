@@ -12,6 +12,10 @@
             <string>..\project05\app\views\articles\_form.html.erb</string>
             <key>_line</key>
             <string>..\project03\app\views\line_items\_line_item.html.erb</string>
+            <key>adm</key>
+            <string>app\controllers\admins_controller.rb</string>
+            <key>admi</key>
+            <string>app\models\admin.rb</string>
             <key>admin</key>
             <string>app\controllers\admins_controller.rb</string>
             <key>admin.</key>
@@ -66,6 +70,8 @@
             <string>..\project03\app\views\line_items\create.js.erb</string>
             <key>env</key>
             <string>config\environment.rb</string>
+            <key>for</key>
+            <string>app\views\admins\_form.html.erb</string>
             <key>form</key>
             <string>app\views\admins\_form.html.erb</string>
             <key>gem</key>
