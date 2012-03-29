@@ -62,6 +62,8 @@
             <string>..\project03\app\views\line_items\create.js.erb</string>
             <key>create.j</key>
             <string>..\project03\app\views\line_items\create.js.erb</string>
+            <key>env</key>
+            <string>config\environment.rb</string>
             <key>gem</key>
             <string>Gemfile</string>
             <key>how</key>
