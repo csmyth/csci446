@@ -16,6 +16,8 @@
             <string>app\models\admin.rb</string>
             <key>admin.r</key>
             <string>app\models\admin.rb</string>
+            <key>admin_c</key>
+            <string>app\controllers\admins_controller.rb</string>
             <key>app</key>
             <string>..\project03\app\assets\stylesheets\application.css.scss</string>
             <key>appli</key>
@@ -58,6 +60,8 @@
             <string>..\project03\app\views\line_items\create.js.erb</string>
             <key>create.j</key>
             <string>..\project03\app\views\line_items\create.js.erb</string>
+            <key>gem</key>
+            <string>Gemfile</string>
             <key>how</key>
             <string>..\project03\app\views\carts\show.html.erb</string>
             <key>inde</key>
@@ -98,6 +102,8 @@
             <string>..\project05\config\routes.rb</string>
             <key>se</key>
             <string>..\project05\db\seeds.rb</string>
+            <key>see</key>
+            <string>db\seeds.rb</string>
             <key>seeds</key>
             <string>..\project05\db\seeds.rb</string>
             <key>show</key>
