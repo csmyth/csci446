@@ -56,6 +56,8 @@
             <string>..\project03\app\controllers\carts_controller.rb</string>
             <key>cct</key>
             <string>..\project03\test\functional\carts_controller_test.rb</string>
+            <key>con</key>
+            <string>test\functional\admins_controller_test.rb</string>
             <key>create</key>
             <string>..\project03\app\views\line_items\create.js.erb</string>
             <key>create.</key>
@@ -64,6 +66,8 @@
             <string>..\project03\app\views\line_items\create.js.erb</string>
             <key>env</key>
             <string>config\environment.rb</string>
+            <key>form</key>
+            <string>app\views\admins\_form.html.erb</string>
             <key>gem</key>
             <string>Gemfile</string>
             <key>how</key>
@@ -113,7 +117,7 @@
             <key>seeds</key>
             <string>..\project05\db\seeds.rb</string>
             <key>show</key>
-            <string>..\project03\app\views\carts\show.html.erb</string>
+            <string>app\views\admins\show.html.erb</string>
             <key>store</key>
             <string>..\project03\test\functional\store_controller_test.rb</string>
             <key>store.js</key>
