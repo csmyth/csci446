@@ -91,7 +91,7 @@
             <key>listing</key>
             <string>..\project05\app\assets\stylesheets\listing.css.scss</string>
             <key>new</key>
-            <string>..\project03\app\views\orders\new.html.erb</string>
+            <string>app\views\sessions\new.html.erb</string>
             <key>order.</key>
             <string>..\project03\app\models\order.rb</string>
             <key>order.r</key>
@@ -106,6 +106,8 @@
             <string>..\project03\test\functional\orders_controller_test.rb</string>
             <key>products_</key>
             <string>..\project03\app\controllers\products_controller.rb</string>
+            <key>rout</key>
+            <string>config\routes.rb</string>
             <key>route</key>
             <string>..\project05\config\routes.rb</string>
             <key>se</key>
@@ -116,6 +118,10 @@
             <string>db\seeds.rb</string>
             <key>seeds</key>
             <string>..\project05\db\seeds.rb</string>
+            <key>ses</key>
+            <string>app\controllers\sessions_controller.rb</string>
+            <key>sess</key>
+            <string>app\controllers\sessions_controller.rb</string>
             <key>show</key>
             <string>app\views\admins\show.html.erb</string>
             <key>store</key>
