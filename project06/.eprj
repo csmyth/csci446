@@ -104,6 +104,8 @@
             <string>..\project05\db\seeds.rb</string>
             <key>see</key>
             <string>db\seeds.rb</string>
+            <key>seed</key>
+            <string>db\seeds.rb</string>
             <key>seeds</key>
             <string>..\project05\db\seeds.rb</string>
             <key>show</key>
