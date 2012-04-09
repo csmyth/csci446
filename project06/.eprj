@@ -4,6 +4,8 @@
     <dict>
         <key>fileTriggers</key>
         <dict>
+            <key>ap</key>
+            <string>app\views\layouts\application.html.erb</string>
             <key>app</key>
             <string>app\views\layouts\application.html.erb</string>
             <key>appli</key>
@@ -12,6 +14,10 @@
             <string>app\views\users\_form.html.erb</string>
             <key>ind</key>
             <string>app\views\users\index.html.erb</string>
+            <key>new</key>
+            <string>app\views\user_sessions\new.html.erb</string>
+            <key>rou</key>
+            <string>config\routes.rb</string>
             <key>us</key>
             <string>app\models\user_session.rb</string>
             <key>user</key>
