@@ -9,7 +9,7 @@
             <key>app</key>
             <string>app\views\layouts\application.html.erb</string>
             <key>appli</key>
-            <string>app\assets\stylesheets\application.css</string>
+            <string>app\controllers\application_controller.rb</string>
             <key>for</key>
             <string>app\views\users\_form.html.erb</string>
             <key>ind</key>
