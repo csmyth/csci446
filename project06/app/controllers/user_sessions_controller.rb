@@ -12,9 +12,9 @@ class UserSessionsController < ApplicationController
 
     respond_to do |format|
       if @user_session.save
-        format.html { redirect_to @user_session, notice: "Welcome back, 
-        			#{@user_session.find.user.first_name} #{@user_session.find.user.last_name}!" }
-        format.json { render json: @user_session, status: :created, location: @user_session }
+        format.html { redirect_to users_path, notice: "Welcome back, 
+        			#{current_user.first_name} #{current_user.last_name}!" }
+        format.json { render json: users_path, status: :created, location: @user_session }
       else
         format.html { render action: "new" }
         format.json { render json: @user_session.errors, status: :unprocessable_entity }

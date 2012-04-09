@@ -24,6 +24,8 @@
             <string>app\models\user.rb</string>
             <key>user_session</key>
             <string>app\controllers\user_sessions_controller.rb</string>
+            <key>users_c</key>
+            <string>app\controllers\users_controller.rb</string>
         </dict>
     </dict>
 </plist>
