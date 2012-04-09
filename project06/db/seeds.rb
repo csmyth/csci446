@@ -8,13 +8,17 @@
 
 User.delete_all
 User.create(username: 'administrator', 
-		password: 'password',
+		crypted_password: 'password',
 		first_name: 'Darth',
 		last_name: 'Vader',
-		email: 'wehavecookies@thedarkside.com',
-		role: 'admin')
+		email: 'wehavecookies@thedarkside.com')
 User.create(username: 'member',
-		password: 'password',
+		crypted_password: 'password',
 		first_name: 'Obi Wan',
 		last_name: 'Kenobi',
 		email: 'hellothere@tatooine.net')
+User.create(username: 'thechosenone', 
+		crypted_password: 'password', 
+		first_name: 'Anakin',
+		last_name: 'Skywalker',
+		email: 'podracechampion@sebulbasucks.com')
