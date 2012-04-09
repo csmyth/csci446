@@ -1,12 +1,4 @@
 Gamez::Application.routes.draw do
-  controller :sessions do
-  	get 'login' => :new
-  	post 'login' => :create
-  	delete 'logout' => :destroy
-  end
-  
-  resources :admins
-
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
