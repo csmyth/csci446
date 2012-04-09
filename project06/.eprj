@@ -4,6 +4,8 @@
     <dict>
         <key>fileTriggers</key>
         <dict>
+            <key>ind</key>
+            <string>app\views\users\index.html.erb</string>
             <key>us</key>
             <string>app\models\user.rb</string>
             <key>user</key>
