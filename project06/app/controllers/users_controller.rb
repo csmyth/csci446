@@ -44,7 +44,7 @@ class UsersController < ApplicationController
 
     respond_to do |format|
       if @user.save
-        format.html { redirect_to users_url, notice: 'Welcome, #{@user.first_name} #{@user.last_name}' }
+        format.html { redirect_to users_url, notice: "Welcome, #{@user.first_name} #{@user.last_name}" }
         format.json { render json: @user, status: :created, location: @user }
       else
         format.html { render action: "new" }

@@ -16,8 +16,12 @@
     <%= f.text_field :username %>
   </div>
   <div class="field">
-    <%= f.label :password_digest %><br />
-    <%= f.text_field :password_digest %>
+    <%= f.label :password, 'Password' %><br />
+    <%= f.password_field :password %>
+  </div>
+  <div class="field">
+  	<%= f.label :password_confirmation, 'Password Confirmation' %><br />
+  	<%= f.password_field :password_confirmation %>
   </div>
   <div class="field">
     <%= f.label :first_name %><br />

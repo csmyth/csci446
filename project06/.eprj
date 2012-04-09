@@ -4,12 +4,14 @@
     <dict>
         <key>fileTriggers</key>
         <dict>
+            <key>for</key>
+            <string>app\views\users\_form.html.erb</string>
             <key>ind</key>
             <string>app\views\users\index.html.erb</string>
             <key>us</key>
             <string>app\models\user.rb</string>
             <key>user</key>
-            <string>app\controllers\users_controller.rb</string>
+            <string>app\models\user.rb</string>
         </dict>
     </dict>
 </plist>
