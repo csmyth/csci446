@@ -16,6 +16,8 @@
             <string>app\views\users\index.html.erb</string>
             <key>new</key>
             <string>app\views\user_sessions\new.html.erb</string>
+            <key>r</key>
+            <string>config\routes.rb</string>
             <key>rou</key>
             <string>config\routes.rb</string>
             <key>us</key>
