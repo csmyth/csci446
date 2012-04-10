@@ -5,7 +5,7 @@ Gamez::Application.routes.draw do
   	get 'logout' => :destroy
   end
 
-  #resources :user_sessions
+  resources :user_sessions
   resources :users
 
   # The priority is based upon order of creation:
