@@ -4,10 +4,12 @@
     <dict>
         <key>fileTriggers</key>
         <dict>
+            <key>_f</key>
+            <string>app\views\user_sessions\_form.html.erb</string>
             <key>ap</key>
             <string>app\views\layouts\application.html.erb</string>
             <key>app</key>
-            <string>app\views\layouts\application.html.erb</string>
+            <string>app\controllers\application_controller.rb</string>
             <key>appli</key>
             <string>app\controllers\application_controller.rb</string>
             <key>for</key>
@@ -18,14 +20,22 @@
             <string>app\views\user_sessions\new.html.erb</string>
             <key>r</key>
             <string>config\routes.rb</string>
+            <key>ro</key>
+            <string>config\routes.rb</string>
             <key>rou</key>
             <string>config\routes.rb</string>
             <key>us</key>
             <string>app\models\user_session.rb</string>
             <key>user</key>
             <string>app\models\user.rb</string>
+            <key>user_</key>
+            <string>app\controllers\user_sessions_controller.rb</string>
+            <key>user_se</key>
+            <string>app\controllers\user_sessions_controller.rb</string>
             <key>user_session</key>
             <string>app\controllers\user_sessions_controller.rb</string>
+            <key>users_</key>
+            <string>app\controllers\users_controller.rb</string>
             <key>users_c</key>
             <string>app\controllers\users_controller.rb</string>
         </dict>

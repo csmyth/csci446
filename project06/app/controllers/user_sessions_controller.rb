@@ -25,7 +25,8 @@ class UserSessionsController < ApplicationController
   # DELETE /user_sessions/1
   # DELETE /user_sessions/1.json
   def destroy
-    current_user_session.destroy
+    @user_session = UserSession.find
+    @user_session.destroy
 
     respond_to do |format|
       format.html { redirect_to users_url, notice: "Successfully logged out" }
