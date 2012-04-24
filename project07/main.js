@@ -12,10 +12,8 @@ $(function() {
   	guessesLeft--;
   	if ($("input:text#guess").val() == magicNumber) {
   		winner();
-  		playagain();
   	} else if (guessesLeft < 1) {
-  		alert("You lose puny human! Mwahaha!");
-  		playagain();
+  		loser();
   	} else {
 	  	$("span#guessesLeft").text(guessesLeft);
 	  	giveFeedback();
@@ -58,5 +56,11 @@ function winner() {
   	highScores.push([guessesLeft, name]);
   	$("div#highScores").text("");
   	populateHighScores(highScores);
+  	playagain();
+}
+
+function loser() {
+  	alert("You lose puny human! Mwahaha!");
+  	playagain();
 }
 	
