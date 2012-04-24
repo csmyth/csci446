@@ -7,7 +7,7 @@ $(function() {
   
   $("input:button#btnGuess").click(function() {
   	guessesLeft--;
-  	alert(guessesLeft);
+  	$("span#guessesLeft").text(guessesLeft);
   });
 
 });
