@@ -9,7 +9,7 @@
             <key>ap</key>
             <string>app\views\layouts\application.html.erb</string>
             <key>app</key>
-            <string>app\controllers\application_controller.rb</string>
+            <string>config\application.rb</string>
             <key>appli</key>
             <string>app\controllers\application_controller.rb</string>
             <key>for</key>
