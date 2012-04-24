@@ -6,6 +6,8 @@ $(function() {
   updateScore(guessesLeft);
   populateHighScores(highScores);
   
+  alert(magicNumber);
+  
   $("input:button#btnGuess").click(function() {
   	guessesLeft--;
   	if (guessesLeft < 1) {
@@ -13,6 +15,7 @@ $(function() {
   		location.reload();
   	} else {
 	  	$("span#guessesLeft").text(guessesLeft);
+	  	giveFeedback();
   	}
   });
 
@@ -26,4 +29,12 @@ function populateHighScores(scores) {
 
 function updateScore(score) {
   $('h2#score span#guessesLeft').append(score);
+}
+
+function giveFeedback() {
+	if ($("input:text#guess").val() < magicNumber) {
+		alert("Too low!");
+	} else {
+		alert("Too high!");
+	}
 }
