@@ -4,6 +4,12 @@ var highScores = new Array([9, "HarryJamesPotter"], [3, "ZedCthulhu"], [2, "Near
 $(function() {
   updateScore(guessesLeft);
   populateHighScores(highScores);
+  
+  $("input:button#btnGuess").click(function() {
+  	guessesLeft--;
+  	alert(guessesLeft);
+  });
+
 });
 
 function populateHighScores(scores) {
