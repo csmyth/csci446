@@ -8,7 +8,12 @@ $(function() {
   
   $("input:button#btnGuess").click(function() {
   	guessesLeft--;
-  	$("span#guessesLeft").text(guessesLeft);
+  	if (guessesLeft < 1) {
+  		alert("Game Over");
+  		location.reload();
+  	} else {
+	  	$("span#guessesLeft").text(guessesLeft);
+  	}
   });
 
 });
