@@ -10,7 +10,10 @@ $(function() {
   
   $("input:button#btnGuess").click(function() {
   	guessesLeft--;
-  	if (guessesLeft < 1) {
+  	if ($("input:text#guess").val() == magicNumber) {
+  		alert("You escape this time. Next time you won't be so lucky! Mwahaha!");
+  		location.reload();
+  	} else if (guessesLeft < 1) {
   		alert("Game Over");
   		location.reload();
   	} else {
