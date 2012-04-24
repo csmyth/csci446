@@ -12,10 +12,10 @@ $(function() {
   	guessesLeft--;
   	if ($("input:text#guess").val() == magicNumber) {
   		alert("You escape this time. Next time you won't be so lucky! Mwahaha!");
-  		location.reload();
+  		playagain();
   	} else if (guessesLeft < 1) {
-  		alert("Game Over");
-  		location.reload();
+  		alert("You lose puny human! Mwahaha!");
+  		playagain();
   	} else {
 	  	$("span#guessesLeft").text(guessesLeft);
 	  	giveFeedback();
@@ -41,3 +41,14 @@ function giveFeedback() {
 		alert("Too high!");
 	}
 }
+
+function playagain() {
+	var optin = confirm("Dare to play again?");
+	if (optin == true){
+		location.reload();
+	} else {
+		alert("Fine then. But if you change your mind, you're gonna have to refresh the page yourself! Mwahaha! *coughsputter* Ahem.");
+		magicNumber = Math.floor((Math.random()*100)+1); //Prevent cheating
+	}
+}
+	
