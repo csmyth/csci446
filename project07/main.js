@@ -11,7 +11,7 @@ $(function() {
   $("input:button#btnGuess").click(function() {
   	guessesLeft--;
   	if ($("input:text#guess").val() == magicNumber) {
-  		alert("You escape this time. Next time you won't be so lucky! Mwahaha!");
+  		winner();
   		playagain();
   	} else if (guessesLeft < 1) {
   		alert("You lose puny human! Mwahaha!");
@@ -50,5 +50,13 @@ function playagain() {
 		alert("Fine then. But if you change your mind, you're gonna have to refresh the page yourself! Mwahaha! *coughsputter* Ahem.");
 		magicNumber = Math.floor((Math.random()*100)+1); //Prevent cheating
 	}
+}
+
+function winner() {
+	alert("You escape this time. Next time you won't be so lucky! Mwahaha!");
+  	var name = prompt("So what shall the minstrels call you, hero?", "FraidyKnight");
+  	highScores.push([guessesLeft, name]);
+  	$("div#highScores").text("");
+  	populateHighScores(highScores);
 }
 	
